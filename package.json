@@ -1,0 +1,29 @@
+{
+  "name": "css-scope",
+  "version": "0.0.1",
+  "description": "CSS scoping by root attribute.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gcca/css-scope.git"
+  },
+  "keywords": [
+    "css",
+    "scope",
+    "attribute",
+    "environment",
+    "html",
+    "javascript",
+    "frontend",
+    "development"
+  ],
+  "author": "Gonzales Castillo, Cristhian Alberto",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/gcca/css-scope/issues"
+  },
+  "homepage": "https://github.com/gcca/css-scope#readme"
+}
