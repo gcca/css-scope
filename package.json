@@ -4,8 +4,8 @@
   "description": "CSS scoping by root attribute.",
   "main": "index.js",
   "scripts": {
-    "build": "babel -d dist/ --presets es2015 index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel -d dist/ index.js",
+    "test": "mocha --compilers js:babel-core/register -r chai/register-expect"
   },
   "repository": {
     "type": "git",

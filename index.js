@@ -16,7 +16,7 @@ function scope(ast) {
         selector.split(/\s+/).map(token =>
           excluded.includes(token)
           ? token
-          : token.replace(/^(.*?)(:|$)(.*)?/, '$1.MARK$2$3')
+          : token.replace(/^(.*?)(:|$)(.*)?/, '$1.scope$2$3')
         ).join(' '));
     } else if (Array.isArray(rule) || rule instanceof Object) {
       node[key] = scope(rule);
