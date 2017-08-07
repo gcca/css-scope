@@ -4,6 +4,7 @@
   "description": "CSS scoping by root attribute.",
   "main": "index.js",
   "scripts": {
+    "build": "babel -d dist/ --presets es2015 index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/gcca/css-scope/issues"
   },
-  "homepage": "https://github.com/gcca/css-scope#readme"
+  "homepage": "https://github.com/gcca/css-scope#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "css": "^2.2.1"
+  }
 }
